@@ -1,0 +1,369 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "what is your purpose of creation"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. i can provide you with information about the software compnies and technology! \n 2. Ask me about the latest technology\n \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "what is your name",
+                "tell me your name"
+            ],
+            "responses": [
+                "I am asta, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "birth",
+            "patterns": [
+                "When were you created",
+                "when is your birthday",
+                "where do you live",
+                "what is your birth place"
+            ],
+            "responses": [
+                "I was created in 8th April of 2023 and that's my birthday i believe so.as i'm a chatbot i don't exist in the physical world,so i don't have a place to live'"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "what is your name",
+                "tell me your name"
+            ],
+            "responses": [
+                "I am asta, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by the programmers  prasanna ,akilan,soorya to guide and interact with you whenever you want."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "current_technology",
+            "patterns": [ "What are the current trends in software technology?", "Tell me about the latest software technologies.", "Which technologies are popular in software development?" ],
+            "responses": [ "There are several current trends in software technology, including artificial intelligence (AI), machine learning (ML), cloud computing, Internet of Things (IoT), blockchain, and DevOps." ]
+        },
+        {
+            "tag": "ai",
+            "patterns": [ "What is artificial intelligence (AI)?", "How is AI being used in software development?" ],
+            "responses": [ "Artificial intelligence (AI) is a branch of computer science that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. In software development, AI is being used for various purposes such as natural language processing, image recognition, and data analysis." ]
+        },
+        {
+            "tag": "ml",
+            "patterns": [ "What is machine learning (ML)?", "How is ML applied in software development?" ],
+            "responses": [ "Machine learning (ML) is a subset of AI that involves the development of algorithms and models that enable computers to learn and make predictions or decisions without being explicitly programmed. ML is applied in software development for tasks like data analysis, pattern recognition, and predictive modeling." ]
+        },
+        {
+            "tag": "cloud",
+            "patterns": [ "What is cloud computing?", "How is cloud technology used in software development?" ],
+            "responses": [ "Cloud computing is the delivery of computing services over the internet, providing on-demand access to resources like servers, storage, databases, and software. In software development, cloud technology is used for scalable infrastructure, storage, deployment, and collaboration on applications." ]
+        },
+        {
+            "tag": "iot",
+            "patterns": [ "What is the Internet of Things (IoT)?", "How is IoT incorporated into software development?" ],
+            "responses": [ "The Internet of Things (IoT) refers to the network of physical devices embedded with sensors, software, and connectivity to exchange data and interact with the environment. In software development, IoT is used to develop applications that control and monitor connected devices, enabling automation and data analysis." ]
+        },
+        {
+            "tag": "blockchain",
+            "patterns": [ "What is blockchain technology?", "How is blockchain used in software development?" ],
+            "responses": [ "Blockchain technology is a decentralized and distributed ledger that records transactions across multiple computers. In software development, blockchain is used for secure and transparent data storage, smart contracts, cryptocurrency transactions, and supply chain management." ]
+        },
+        {
+            "tag": "devops",
+            "patterns": [ "What is DevOps?", "How does DevOps improve software development?" ],
+            "responses": [ "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency in the software development lifecycle. DevOps helps in faster and more reliable software delivery, continuous integration and deployment, and increased agility and scalability." ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Thank you", "Thanks for your help", "Goodbye", "Bye" ],
+            "responses": [ "You're welcome! If you have any more questions, feel free to ask. Goodbye!" ]
+        },
+        {
+            "tag": "current_companies",
+            "patterns": [ "Which are the top software companies right now?", "Tell me about some current software companies.", "Which software companies are leading in the industry?" ],
+            "responses": [ "Some of the top software companies currently are Microsoft, Google, Amazon, Apple, and Facebook." ]
+        },
+        {
+            "tag": "microsoft",
+            "patterns": [ "Tell me about Microsoft.", "What does Microsoft do?", "Give me details about Microsoft." ],
+            "responses": [ "Microsoft is a multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services. They are known for their products such as Windows operating system, Office productivity suite, Azure cloud services, and Xbox gaming consoles." ]
+        },
+        {
+            "tag": "google",
+            "patterns": [ "Tell me about Google.", "What does Google do?", "Give me details about Google." ],
+            "responses": [ "Google is a multinational technology company that specializes in Internet-related services and products. They are known for their search engine, Google Search, as well as other products and services like Google Maps, Gmail, Google Drive, Android operating system, and Google Cloud Platform." ]
+        },
+        {
+            "tag": "amazon",
+            "patterns": [ "Tell me about Amazon.", "What does Amazon do?", "Give me details about Amazon." ],
+            "responses": [ "Amazon is an American multinational technology company that focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. They are known for their e-commerce platform, Amazon.com, as well as services like Amazon Web Services (AWS), Amazon Prime, Kindle e-readers, and Alexa virtual assistant." ]
+        },
+        {
+            "tag": "apple",
+            "patterns": [ "Tell me about Apple.", "What does Apple do?", "Give me details about Apple." ],
+            "responses": [ "Apple is an American multinational technology company that designs, develops, and sells consumer electronics, software, and online services. They are known for their products like iPhone, iPad, Mac computers, Apple Watch, Apple TV, and services like Apple Music, iCloud, and the App Store." ]
+        },
+        {
+            "tag": "facebook",
+            "patterns": [ "Tell me about Facebook.", "What does Facebook do?", "Give me details about Facebook." ],
+            "responses": [ "Facebook is an American social media and technology company that focuses on social networking services and products. They are known for their social media platform, Facebook, as well as services like Instagram, WhatsApp, Oculus VR, and Facebook Messenger." ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Thank you", "Thanks for your help", "Goodbye", "Bye" ],
+            "responses": [ "You're welcome! If you have any more questions, feel free to ask. Goodbye!" ]
+        },
+
+        {
+            "tag": "company_details",
+            "patterns": [ "Tell me about TCS", "What does TCS do?", "Give me details about TCS" ],
+            "responses": [
+                "Sure! TCS (Tata Consultancy Services) is a global IT services, consulting, and business solutions company. They specialize in providing IT services and digital solutions to businesses across various industries.",
+                "TCS is a leading multinational IT services company that focuses on delivering innovative solutions to their clients. They offer a wide range of services, including software development, IT consulting, and business process outsourcing.",
+                "When it comes to TCS, they are known for their expertise in IT services, digital transformation, and consulting."
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [ "What is the website of TCS?", "Can you provide me the website link for TCS?" ],
+            "responses": [ "Certainly! The website of TCS is https://www.tcs.com." ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "Where is TCS located?", "What is the address of TCS?" ],
+            "responses": [ "TCS is headquartered at TCS House, 2nd Floor, Raveline Street, Fort, Mumbai, Maharashtra, India." ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [ "How can I contact TCS?", "What is the contact number for TCS?" ],
+            "responses": [ "You can contact TCS at +91-22-6778-9999." ]
+        },
+        {
+            "tag": "company_details",
+            "patterns": [ "Tell me about Wipro Technologies", "What does Wipro Technologies do?", "Give me details about Wipro Technologies" ],
+            "responses": [
+                "Sure! Wipro Technologies is a global IT consulting and outsourcing company. They specialize in providing IT services, including software development, infrastructure management, and business process outsourcing.",
+                "Wipro Technologies is a leading multinational IT services company that focuses on delivering technology-driven business solutions. They offer a wide range of services to clients across industries.",
+                "When it comes to Wipro Technologies, they are known for their expertise in IT consulting, digital transformation, and software services."
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [ "What is the website of Wipro Technologies?", "Can you provide me the website link for Wipro Technologies?" ],
+            "responses": [ "Certainly! The website of Wipro Technologies is https://www.wipro.com." ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "Where is Wipro Technologies located?", "What is the address of Wipro Technologies?" ],
+            "responses": [ "Wipro Technologies is headquartered at Doddakannelli, Sarjapur Road, Bengaluru, Karnataka, India." ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [ "How can I contact Wipro Technologies?", "What is the contact number for Wipro Technologies?" ],
+            "responses": [ "You can contact Wipro Technologies at +91-80-2844-0011." ]
+        },
+        {
+            "tag": "company_details",
+            "patterns": [ "Tell me about Tech Mahindra", "What does Tech Mahindra do?", "Give me details about Tech Mahindra" ],
+            "responses": [
+                "Sure! Tech Mahindra is a global IT and business process outsourcing company. They specialize in providing IT services, consulting, and digital solutions to businesses across various industries.",
+                "Tech Mahindra is a leading multinational IT services company that focuses on delivering innovative and customer-centric solutions. They offer a wide range of services, including application development, infrastructure management, and business process services.",
+                "When it comes to Tech Mahindra, they are known for their expertise in digital transformation, consulting, and IT services."
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [ "What is the website of Tech Mahindra?", "Can you provide me the website link for Tech Mahindra?" ],
+            "responses": [ "Certainly! The website of Tech Mahindra is https://www.techmahindra.com." ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "Where is Tech Mahindra located?", "What is the address of Tech Mahindra?" ],
+            "responses": [ "Tech Mahindra is headquartered at Gateway Building, Sez, Plot No. 3, Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Maharashtra, India." ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [ "How can I contact Tech Mahindra?", "What is the contact number for Tech Mahindra?" ],
+            "responses": [ "You can contact Tech Mahindra at +91-20-4225-0000." ]
+        },
+        {
+            "tag": "company_details",
+            "patterns": [ "Tell me about Accenture", "What does Accenture do?", "Give me details about Accenture" ],
+            "responses": [
+                "Sure! Accenture is a global professional services company. They specialize in providing strategy, consulting, technology, and operations services to clients across various industries.",
+                "Accenture is a leading multinational professional services company that focuses on helping clients improve their performance and create sustainable value. They offer a wide range of services, including digital transformation, technology consulting, and outsourcing.",
+                "When it comes to Accenture, they are known for their expertise in consulting, technology, and outsourcing services."
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [ "What is the website of Accenture?", "Can you provide me the website link for Accenture?" ],
+            "responses": [ "Certainly! The website of Accenture is https://www.accenture.com." ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "Where is Accenture located?", "What is the address of Accenture?" ],
+            "responses": [ "Accenture is headquartered at 1 Grand Canal Square, Grand Canal Harbour, Dublin, D02 P820, Ireland." ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [ "How can I contact Accenture?", "What is the contact number for Accenture?" ],
+            "responses": [ "You can contact Accenture at +353-1-646-2000." ]
+        },
+        {
+            "tag": "company_details",
+            "patterns": [ "Tell me about HCL Technologies", "What does HCL Technologies do?", "Give me details about HCL Technologies" ],
+            "responses": [
+                "Sure! HCL Technologies is a global IT services company. They specialize in providing software development, infrastructure management, and engineering services to clients across various industries.",
+                "HCL Technologies is a leading multinational IT services company that focuses on delivering technology-led solutions. They offer a wide range of services, including application development, cybersecurity, and cloud computing.",
+                "When it comes to HCL Technologies, they are known for their expertise in IT services, digital solutions, and engineering services."
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [ "What is the website of HCL Technologies?", "Can you provide me the website link for HCL Technologies?" ],
+            "responses": [ "Certainly! The website of HCL Technologies is https://www.hcltech.com." ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "Where is HCL Technologies located?", "What is the address of HCL Technologies?" ],
+            "responses": [ "HCL Technologies is headquartered at Tower A, Building No. 8, DLF Cyber City, Phase II, Gurugram, Haryana, India." ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [ "How can I contact HCL Technologies?", "What is the contact number for HCL Technologies?" ],
+            "responses": [ "You can contact HCL Technologies at +91-120-253-5071." ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Thank you", "Thanks for your help", "Goodbye", "Bye" ],
+            "responses": [ "You're welcome! If you have any more questions, feel free to ask. Goodbye!" ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [ "I don't know", "Sorry, I'm not sure", "Can you repeat that?" ],
+            "responses": [ "I apologize, but I couldn't understand your request. Could you please rephrase it?" ]
+        }
+    ]
+}
